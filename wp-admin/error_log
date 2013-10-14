@@ -1,0 +1,8 @@
+[21-Mar-2013 13:17:28] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/trueshop/public_html/casino/wp-content/themes/casino/functions.php on line 626
+[03-Apr-2013 13:11:59] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399
+[03-Apr-2013 13:32:52] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399
+[03-Apr-2013 13:46:34] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399
+[03-Apr-2013 13:46:38] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399
+[03-Apr-2013 13:46:52] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399
+[03-Apr-2013 14:02:30] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399
+[04-Apr-2013 06:21:15] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php on line 1399

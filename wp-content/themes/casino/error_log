@@ -1,0 +1,2 @@
+[11-May-2013 15:26:07] PHP Fatal error:  Call to undefined function  get_header() in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/index.php on line 15
+[11-May-2013 15:26:12] PHP Fatal error:  Call to undefined function  post_password_required() in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/comments.php on line 16

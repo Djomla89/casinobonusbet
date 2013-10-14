@@ -1,0 +1,211 @@
+O:8:"stdClass":3:{s:6:"status";s:15:"HTTP/1.1 200 OK";s:11:"contentType";s:9:" text/css";s:7:"content";s:6136:"/* CSS Document */
+
+a { color:#0066ff}
+
+p{line-height:1.3em; text-align:justify}
+
+.pb_10{ padding-bottom:10px;}
+
+.block{ width:100%; float:left;}
+
+.pt_10{ padding-top:10px;}
+
+.pt_20{ padding-top:20px;}
+
+.pt_30{ padding-top:30px;}
+
+.pt_49{ padding-top:49px;}
+
+.clear {
+
+ clear: both;
+
+ display: block;
+
+ overflow: hidden;
+
+ visibility: hidden;
+
+ width: 0;
+
+ height: 0;
+
+}
+
+
+
+
+
+
+
+.clearfix:after {
+
+ clear: both;
+
+ content: ' ';
+
+ display: block;
+
+ font-size: 0;
+
+ line-height: 0;
+
+ visibility: hidden;
+
+ width: 0;
+
+ height: 0;
+
+}
+
+
+
+.clearfix {
+
+ display: inline-block;
+
+}
+
+
+
+* html .clearfix {
+
+ height: 1%;
+
+}
+
+
+
+.clearfix {
+
+ display: block;
+
+}
+
+
+
+*{ padding:0pt; margin:0pt;}
+
+body{ font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+.header-top { width:100%; height:26px; float:left; background:url(header-top.jpg) repeat-x; background-color:#dddddd; border-bottom:#e0e0e0 solid 1px;}
+
+.header-top .wrapper{ width:1062px; margin:0pt auto}
+
+.header-top .wrapper .left{ width:100%; float:left;}
+
+.header-top .wrapper .left img{ display:block; float:left; margin-left:48px; margin-top:5px}
+
+.header-top .wrapper .left p { display:block; float:left; margin-top:5px; margin-left:5px; color:#333333}
+
+.header-top .wrapper .left span{display:block; float:right; margin-top:5px; margin-right:12px; color:#333333}
+
+.header-wrap{ width:100%; height:138px; float:left; background:url(header-wrap.jpg) repeat-x bottom;}
+
+.header-wrap .wrapper {width:1062px; margin:0pt auto }
+
+.header-wrap .wrapper img { display:block; float:left;}
+
+#FlashID { display:block; float:left; margin-top:20px; margin-left:5px;}
+
+.navi-wrap { width:100%; height:34px; float:left; background:url(navi-bg.jpg) repeat-x #9b0000; margin-top:5px;}
+
+.navi-wrap .wrapper{width:1062px; margin:0pt auto; }
+
+#menu {float: left;list-style: none;margin: 0;padding: 0;width: 100%; margin-left:20px;}
+
+#menu li {float: left;margin: 0;padding: 0; }
+
+#menu a {color: #fff;display: block;float: left;margin: 0;padding: 8px 15px;text-decoration: none;text-shadow: 2px 2px 2px #050505;
+
+filter: dropshadow(color=#050505, offx=2, offy=2);}
+
+#menu a:hover {background: #000000 url("hover.png") bottom center no-repeat;color: #fff;padding-bottom: 10px;}
+
+.mid-wrap { width:100%; float:left; background-color:#e7e7e7}
+
+.mid-wrap .wrapper { width:980px; margin:0pt auto}
+
+.container { width:980px; float:left; min-height:3249px; _height:3249px; background-color:#FFF; margin-top:13px; -webkit-border-top-left-radius: 8px;-webkit-border-top-right-radius: 8px;-moz-border-radius-topleft: 8px;-moz-border-radius-topright: 8px;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+
+.content { width:939px; margin:0pt auto; margin-top:20px; }
+
+.p1 { color:#666666;}
+
+.content top { width:100%; float:left;}
+
+.content .bottom{ width:100%; float:left; padding-top:20px;}
+
+.content .bottom .left { width:636px; float:left;}
+
+.content .bottom .right { width:282px; float:right;}
+
+.michaels { width:220px; min-height:271px; _height:271px; float:left; background-color:#f4f4f4; border:#e7e7e7 solid 1px; padding:24px 15px 0px 12px;}
+
+.m-right { width:368px; float:left; margin-left:10px;}
+
+.viag-1 { display:block; float:right; margin-right:35px; margin-top:20px;}
+
+hr{ border:dashed  #989898 1px; display:block; margin-top:10px;}
+
+.yellow {  display:block; float:left; padding:10px; background-color:#ffff00; margin-top:10px; }
+
+.offer { width:99%; display:block; float:left; clear:both; margin-top:10px;}
+
+#comments {float:left;width:100%;background:#ffffff; border-top:#f3f3f3 solid 3px;}
+
+#comments2 {float:left;width:140px;padding-top:60px;text-align:center;}
+
+#comments .descrip {padding-left:15px;}
+
+#comments .d1 {font-family:Arial, Helvetica, sans-serif;font-weight:normal;font-size:14px; }
+
+#comments .d2 {padding-left:10px;color:#666666;font-family:Arial, Helvetica, sans-serif;}
+
+#comments .d3 {padding-left:10px;font-family:Arial, Helvetica, sans-serif;font-size:14px;}
+
+
+
+#comments h1 {color:#cc0000;line-height:150%;font-size:24px;}
+
+#comments h2 {margin-bottom:10px;color:#cc0000;border-bottom:1px solid #e8e8e8;line-height:150%;font-size:18px;}
+
+#comments .comment {margin:15px;background:#ffffff;padding:5px;border-top:1px solid #e8e8e8; margin-top:50px;}
+
+#comments .padd {margin-top:15px;}
+
+#comments .text1 {float:left;font-weight:bold;}
+
+#comments .text2 {float:right;color:#666666;font-size:10px;}
+
+#comments .text3 {clear:both;color:#333333;padding-top:8px;font-size:14px; line-height:1.3em}
+
+.right .block .top{ width:262px; height:31px; float:left; background-color:#9e0b0f; border-right:#000 solid 19px;}
+
+.right .block .top span { font-size:18px; font-weight:bold; color:#FFF; display:block; float:left; margin:6px;}
+
+.right .block .bottom{ width:100%; float:left;}
+
+.right .block .bottom1 { width:279px; min-height:690px; float:left; border:#e7e7e7 solid 1px; background-color:#f4f4f4; padding-bottom:10px;}
+
+.right .block .bottom1 div { width:267px; float:left; margin-top:9px; margin-left:5px;}
+
+.right .block .bottom2 {width:279px; min-height:690px; float:left; border:#b7c6d6 solid 1px; background-color:#d9e8f8; padding-bottom:10px;}
+
+.right .block .bottom2 div { width:270px; float:left; margin-top:9px; margin-left:5px;}
+
+.doctor { width:100%; float:left; margin-top:10px;}
+
+.doctor img { display:block; float:left;}
+
+.doctor span{ display:block; width:180px; float:left; margin-left:5px; font-size:12px; margin-top:10px;}
+
+.doctor p{ width:97%; display:block; float:left; clear:both; padding-right:7px; margin-top:10px;}
+
+.search { width:242px; height:26px; float:left; background:url(search_01.jpg) no-repeat}
+
+.search input{ background:none; border:none; width:224px; height:20px; margin:5px 7px 3px 9px;}
+
+.btn-search { width:36px; height:26px; display:block; float:left;}
+.footer { width:100%; float:left; margin-top:10px; text-align:center; font-size:12px; padding-bottom:10px; color:#333}
+.footer  a{color:#333; text-decoration:none;}";}

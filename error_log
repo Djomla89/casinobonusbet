@@ -1,0 +1,101 @@
+[19-Mar-2013 16:21:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 16:21:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 16:21:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:04:17] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:04:17] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:04:17] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:06:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:06:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:06:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:07:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:07:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:07:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:23:46] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:23:46] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:23:46] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:25:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:25:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:25:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:28:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:28:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:28:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:29:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:29:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:29:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:30:52] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:30:52] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:30:52] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:35:19] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:35:19] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:35:19] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:36:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:36:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:36:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[19-Mar-2013 17:36:37] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 43
+[19-Mar-2013 17:36:37] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 44
+[19-Mar-2013 17:36:37] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/index.php on line 45
+[20-Mar-2013 08:48:05] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:48:53] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:49:27] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:49:30] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:49:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:50:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:50:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[20-Mar-2013 08:50:37] PHP Parse error:  syntax error, unexpected T_STRING in /home/trueshop/public_html/casino/wp-content/themes/casino/contact.php on line 1
+[21-Mar-2013 11:43:53] PHP Parse error:  syntax error, unexpected ')' in /home/trueshop/public_html/casino/wp-content/themes/casino/single.php on line 25
+[21-Mar-2013 11:44:10] PHP Parse error:  syntax error, unexpected ')' in /home/trueshop/public_html/casino/wp-content/themes/casino/single.php on line 25
+[21-Mar-2013 12:43:41] PHP Parse error:  syntax error, unexpected $end in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 279
+[21-Mar-2013 13:16:53] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/trueshop/public_html/casino/wp-content/themes/casino/functions.php on line 626
+[21-Mar-2013 14:43:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:43:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:43:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:43:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:43:59] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:43:59] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:43:59] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:43:59] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:44:58] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:44:58] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:44:58] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:44:58] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:45:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:45:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:45:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:45:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:46:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:46:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:46:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:46:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:54:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:54:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:54:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:54:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:54:21] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:54:21] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:54:21] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:54:21] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 14:54:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 115
+[21-Mar-2013 14:54:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 116
+[21-Mar-2013 14:54:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 117
+[21-Mar-2013 14:54:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 118
+[21-Mar-2013 15:11:40] PHP Fatal error:  Call to undefined function  get_the_permalink() in /home/trueshop/public_html/casino/wp-content/themes/casino/reviews.php on line 92
+[02-Apr-2013 13:59:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 16
+[02-Apr-2013 14:00:58] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 16
+[02-Apr-2013 14:01:02] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 16
+[03-Apr-2013 12:41:49] PHP Fatal error:  Cannot redeclare user_pass_ok() (previously declared in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/user.php:205) in /home/sanmarko/public_html/casinobonusbet.com/wp-includes/deprecated.php on line 3323
+[03-Apr-2013 13:27:13] PHP Parse error:  syntax error, unexpected '<' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/header.php on line 144
+[05-Apr-2013 12:24:51] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:13] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:21] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:25] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:25] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:33] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:41] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:25:46] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:26:34] PHP Parse error:  syntax error, unexpected ';' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 31
+[05-Apr-2013 12:27:53] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 32
+[05-Apr-2013 12:28:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/sidebar.php on line 32
+[12-Apr-2013 10:09:46] PHP Parse error:  syntax error, unexpected '>' in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/header.php on line 146
+[25-Aug-2013 19:35:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/single.php on line 39
+[27-Aug-2013 18:08:39] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/single.php on line 39
+[31-Aug-2013 06:26:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/sanmarko/public_html/casinobonusbet.com/wp-content/themes/casino/single.php on line 39

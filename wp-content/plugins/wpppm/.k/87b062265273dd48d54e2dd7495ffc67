@@ -1,0 +1,8 @@
+O:8:"stdClass":3:{s:6:"status";s:22:"HTTP/1.1 403 Forbidden";s:11:"contentType";s:10:" text/html";s:7:"content";s:168:"<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx/1.2.7</center>
+</body>
+</html>
+";}

@@ -1,0 +1,936 @@
+/*
+Theme Name: casino
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom "Ephemera" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured "sticky" posts), and special styles for six different post formats.
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentyeleven
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+
+
+/*************
+Fix up IE6 PNG Support
+**************/
+.entry-meta{ display: none;}
+embed{ margin-left:185px; margin-top:20px;}
+img, #logo { 
+behavior: url(scripts/iepngfix.htc); 
+}
+
+
+/*************
+  =GENERAL
+**************/
+
+
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	background: #212121 url(images/BG_body2.gif) repeat;
+	margin: 0px;
+}
+
+header, footer, nav, aside {
+	display: block;
+}
+
+ul, li, p, h1, h2,h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+} 
+
+a {
+	color: black;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #212121;
+}
+
+a img {
+	border: none;
+}
+
+h3, h3.small, h3.red {
+	background: url(images/BG_title_big.gif) no-repeat;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	color: #000;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px 0px 0px 10px;
+}
+
+h3.small {
+	background: url(images/BG_title_small.gif) no-repeat;
+	color: #000;
+    text-shadow: 0px 1px 1px #ffffff;
+}
+
+h3.red {
+	background: url(images/BG_title_red.gif) no-repeat;
+	color: white;
+}
+
+.newH3 {
+	background: #ffffff url(images/BG_title_mid-gr.gif) no-repeat;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	color: black;
+	height: 27px;
+	line-height: 27px;
+	padding: 0px 0px 0px 10px;
+}
+
+h2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0px 0px 10px;
+}
+
+h2 a {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h4 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	color: #000;
+	height: 26px;
+	line-height: 26px;
+	padding: 0px 0px 0px 10px;
+}
+
+.redBtnLogin {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+
+.redBtn {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	margin: 0px 0px 10px 20px;
+	float: left;
+}
+
+.redBtn:hover {
+	color: #ffffff;
+}
+.sociable{ margin-top:-4px;}
+.sociable ul li a{ border-radius:20px;}
+
+.blackBtn {
+	background: #000000;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	margin: 0px 0px 10px 20px;
+}
+
+.blackBtn:hover {
+	color: #ffffff;
+	background: #ef0d16;
+}
+
+.getBonusBtn {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	margin: 20px 0px 0px 10px;
+}
+
+.getBonusBtn:hover {
+	color: #ffffff;
+}
+
+.sFont {
+	font-size: 11px;
+}
+
+.boldText, .lightText {
+	font-size: 11px;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+.lighttext {
+	font-weight: bold;
+}
+
+
+/*************
+  =WEBSITE
+**************/
+
+
+div.container {
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/*************
+  =TOPMENU
+**************/
+
+
+div.topMenu {
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.topMenu ul.topLeft {
+	float: left;
+	margin-left: 10px;
+}
+
+div.topMenu ul.topLeft li, ul.topRight li {
+	display: inline;
+	line-height: 35px;
+}
+
+div.topMenu ul.topLeft li a {
+	color: white;
+	padding-right: 10px;
+}
+
+div.topMenu ul.topLeft li a:hover {
+	color: #EEEEEE;
+}
+
+ul.topLeftIcons {
+	float: left;
+	margin: 2px 0px 0px 10px;
+}
+
+ul.topLeftIcons li {
+	list-style: none;
+	margin-right: 5px;
+	display: inline;
+}
+
+div.topMenu ul.topRight li {
+	color: white;
+	font-size: 11px;
+}
+
+div.topMenu a:hover {
+	color: #EEEEEE;
+}
+
+div.topMenu ul.topRight {
+	float: right;
+	margin-right: 15px;
+}
+
+a.forgotPass {
+	color: white;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+div.topMenu input {
+	margin: 1px 5px 0px 5px;
+	font-size: 10px;
+	width: 90px;
+	height: 15px;
+	border: 1px solid #767676;
+	padding-left: 5px;
+}
+
+
+/*************
+  =HEADER
+**************/
+
+.headerTitleWhite {
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+}
+
+div.header {
+	height: 123px;
+	background: url(images/BG_header3.png) no-repeat;
+	position: relative;
+}
+
+div.header h1{
+	width: 260px;
+	height: 70px;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+ul.nav {
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 96px 10px 0px 15px;
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.nav li a, a.poker, a.casino, a.bingo, a.scratch, a.lottery {
+	font-size: 11px;
+	
+	padding: 10px 30px;
+    text-shadow:none; 
+}
+
+a.home {
+	background:url("images/home_icon.png") no-repeat 10% 50%;
+}
+
+a.home:hover {
+	background: #ef0d16 url(images/home_iconSel.png) no-repeat 10% 50%;
+}
+.current_page_item .home {
+	background: #ef0d16 url(images/home_iconSel.png) no-repeat 10% 50%;
+}
+
+a.poker {
+	background:url(images/poker_icon.png) no-repeat 5% 50%;
+}
+
+a.poker:hover {
+	background: #ef0d16 url(images/poker_icon.png) no-repeat 5% 50%;
+}
+.current_page_item .poker {
+	background: #ef0d16 url(images/poker_icon.png) no-repeat 5% 50%;
+}
+
+a.casino {
+	background:url(images/casino_icon.png) no-repeat 10% 50%;
+}
+
+a.casino:hover {
+	background: #ef0d16 url(images/casino_icon.png) no-repeat 10% 50%;
+}
+.current_page_item .casino {
+	background: #ef0d16 url(images/casino_icon.png) no-repeat 10% 50%;
+}
+
+
+a.bingo {
+	background:url(images/bingo_icon.png) no-repeat 9% 50%;
+}
+
+a.bingo:hover {
+	background: #ef0d16 url(images/bingo_icon.png) no-repeat 9% 50%;
+}
+.current_page_item .bingo {
+	background: #ef0d16 url(images/bingo_icon.png) no-repeat 9% 50%;
+}
+
+a.lottery {
+	background:url(images/lottery_icon.png) no-repeat 8% 50%;
+}
+
+a.lottery:hover {
+	background: #ef0d16 url(images/lottery_icon.png) no-repeat 8% 50%;
+}
+.current_page_item .lottery {
+	background:  #ef0d16 url(images/lottery_icon.png) no-repeat 8% 50%;
+}
+
+a.scratch {
+	background:url(images/scratch_icon.png) no-repeat 8% 50%;
+}
+
+a.scratch:hover {
+	background: #ef0d16 url(images/scratch_icon.png) no-repeat 8% 50%;
+}
+.current_page_item .scratch {
+	background: #ef0d16 url(images/scratch_icon.png) no-repeat 8% 50%;
+}
+
+ul.nav li a:hover {
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+}
+
+ul li a.selected {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+}
+
+ul li a.selected, ul li a.selected, ul li a.selected, ul li a.selected, ul li a.selected, ul li a.selected {
+	background: #ef0d16 url(images/home_iconSel.png) no-repeat 10% 50%;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+}
+
+ul li a.selectedCasino {
+	background: #ef0d16 url(images/casino_icon.png) no-repeat 10% 50%;
+}
+
+ul li a.selectedPoker {
+	background: #ef0d16 url(images/poker_icon.png) no-repeat 5% 50%;
+}
+
+ul li a.selectedBingo {
+	background: #ef0d16 url(images/bingo_icon.png) no-repeat 9% 50%;
+}
+
+ul li a.selectedLottery {
+	background: #ef0d16 url(images/lottery_icon.png) no-repeat 8% 50%;
+}
+
+ul li a.selectedScratch {
+	background: #ef0d16 url(images/scratch_icon.png) no-repeat 8% 50%;
+}
+
+div.header span {
+	float: right;
+	margin: 96px 15px 0px 0px;
+}
+
+div.header span a {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+
+
+
+/*************
+  =MAIN CONTENT
+**************/
+
+div.main {
+	width: 1000px;
+	background: #E5E5E5;
+	margin: 7px 0px;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+div.leftContent {
+	float: left;
+	width: 785px;
+	margin: 5px;
+}
+
+div.subMenu {
+	float: left;
+	margin: 0px 0px 5px 0px;
+	width: 100%;
+	background: #000000;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+ul.subNav {
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+ul.subNav li {
+	display: inline;
+	margin-right: 30px;
+}
+
+ul.subNav li a {
+	font-size: 11px;
+	color: #ffffff;
+	padding: 5px 10px;
+}
+
+ul.subNav li a:hover {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+}
+#menuid li a:hover{
+   
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;}
+
+div.subMenu span {
+	float: right;
+	margin: 10px 15px 0px 0px;
+}
+
+div.subMenu span a {
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+
+div.welcome, div.noDepositOffers {
+	margin: 0px 0px 8px 0px;
+	width: 785px;
+	float: left;
+	background: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+div.welcome p {
+	font-size: 11px;
+	padding: 8px 12px 2px 12px;
+}
+
+div.welcome p.getBonus {
+	margin: 20px 0px; 
+	text-align: center;
+}
+
+div.welcome img {
+	margin: 7px 0px 10px 8px;
+}
+
+div.welcome span img {
+	float: right;
+	margin: 20px 15px 0px 15px
+}
+
+div.welcome table {
+	margin: 15px 0px 10px 10px;
+}
+
+div.bonusLogo img {
+	float: right;
+	margin: 10px 10px 50px 15px;
+}
+
+div.welcome table td {
+	padding: 2px 0px;
+}
+
+ul.golden {
+	float: left;
+}
+
+ul.golden li{
+	list-style: none;
+	display: inline;
+	margin-right: 0.5px;
+}
+ul.golden li img{ border: 2px solid #EAC841 !important; }
+
+ul.golden li.lastOffer {
+	margin-right: 0px;
+}
+
+div.offers {
+	float: left;
+	margin: 5px 0px 10px 10px;
+	padding: 10px;
+	border: 1px solid #e5e5e5;
+	background: #eeeeee;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+div.offers ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 60px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div.rightContent, div.sideBar {
+	width: 200px;
+	float: right;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 5px 5px 5px 0px;
+}
+
+div.register {
+	margin-bottom: 8px;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+ul.registerForm {
+	margin: 20px 20px 14px 20px;
+}
+
+ul.registerForm li{
+	list-style: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+ul.registerForm li input{
+	margin: 5px 0px 10px -1px;
+	font-size: 11px;
+	padding-left: 3px;
+	width: 150px;
+	border: 1px solid #b8b8b8;
+	background-color: #eeeeee;
+	height: 20px;
+}
+
+div.register a img{
+	margin: 0px 0px 6px 20px;
+}
+
+div.sideBar {
+	margin: 0px;
+	background: #ffffff;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+div.silverOffers {
+	margin-top: 5px;
+	float: left;
+	overflow: hidden;
+	width: 803px;
+}
+
+div.silverOffers div.listHolder, div.listHolderLast {
+	/*width: 255px;*/
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+div.silverOffers div.listHolder ul li, div.listHolderLast ul li {
+	list-style: none;
+	text-align: left;
+	background: #ffffff;
+	margin: 0px 9px 7px 0px;
+	padding: 10px 10px;
+	border: 1px solid #e5e5e5;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+    border-radius: 5px;
+	overflow: hidden;
+	float: left;
+	width:233px;
+}
+
+div.listHolderLast {
+	margin-right: 0px;
+}
+
+div.silverOffers div.listHolder ul li a:hover {
+	color: #f02c03;
+}
+
+a.silverTitle, a.silverLink {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #f02c03;
+	margin: 10px 0px 5px 0px;
+}
+
+a.silverLogo {
+	float: left;
+	margin-right: 10px;
+}
+.silverLogo img{width:57px; height:57px; border-radius:3px;}
+
+p.silverText {
+	font-size: 11px;
+	color: #000000;
+}
+
+a.silverLink {
+	font-size: 10px;
+}
+
+div.offerHolder, div.offerHolderLong {
+	float: left;
+	width: 370px;
+	margin: 0px 10px;
+}
+
+div.offerHolderLong {
+	width: 755px;
+	margin: 10px 0px;
+	padding: 0px 15px;
+}
+
+a.longView {
+	float: right;
+	position: absolute;
+	top: 5px;
+	left: 680px;
+	text-transform: uppercase;
+	background: #000000;
+	padding: 4px 10px;
+	font-weight: bold;
+	color: white;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+a.longView:hover {
+	background: #ef0d16;
+}
+
+div.offerHolder ul, div.offerHolderLong ul {
+	margin: 10px;
+}
+
+div.offerHolder ul li, div.offerHolderLong ul li {
+	list-style: none;
+	margin: 5px 0px 5px 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.offerHolderLong ul li {
+	margin: 10px 0px;
+}
+
+.greyBg {
+	background: #eeeeee;
+}
+
+div.offerHolder ul li.noBorder, div.offerHolderLong ul li.noBorder {
+	border-bottom: none;
+}
+
+a.bronzeView {
+	float: right;
+	position: absolute;
+	top: 5px;
+	left: 300px;
+	text-transform: uppercase;
+	background: #000000;
+	padding: 4px 10px;
+	font-weight: bold;
+	color: white;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+a.bronzeView:hover {
+	background: #ef0d16;
+}
+
+div.newsArticle {
+	float: left;
+	margin: 15px 0px 15px 0px;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 15px;
+	list-style-type:none;
+}
+
+div.newsArticle h2 {
+	margin-bottom: 0px;
+}
+
+div.newsArticle small {
+	margin-bottom: 10px;
+}
+
+.pNews {
+	font-size: 11px;
+	margin: 10px 0px 0px 10px;
+}
+
+div.newsArticle img {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+div.newsArticle a.blackBtn {
+	float: right;
+	margin: 15px 10px 0px 0px;
+}
+
+div.contactUs {
+	margin: 50px 50px 100px 50px;
+	text-align: left;
+	padding: 30px;
+	border: 1px solid #cccccc;
+	background: #eeeeee;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul.contactForm li {
+    list-style: none;
+}
+
+ul.contactForm li input, textarea {
+	margin: 5px 0px 10px -1px;
+	font-size: 12px;
+	padding-left: 3px;
+	width: 350px;
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	height: 30px;
+}
+
+textarea {
+	height: 120px;
+	width: 600px;
+	font-family: Tahoma, Verdana, Arial;
+}
+
+div.contactUs {
+	padding-bottom: 40px;
+}
+
+
+/*************
+  =FOOTER
+**************/
+
+div.footer {
+	font-size: 11px;
+	color: white;
+	width: 100%;
+	height: 73px;
+	overflow: hidden;
+}
+
+div.footHolder {
+	overflow: hidden;
+}
+
+div.footer div.footHolder {
+	width: 978px;
+	margin: auto;
+	padding: 10px 10px;
+}
+
+div.footer div.footHolder p {
+	color: white;
+	float: left;
+}
+
+ul.footNav {
+	float: right;
+}
+
+ul.footNav li {
+	display: inline;
+}
+
+ul.footNav li a {
+	color: white;
+	margin: 0px 10px;
+	background: none;
+}
+
+ul.footNav li a:hover {
+	color: #EEEEEE;
+}
+
+.current_page_item a{
+	background: #ef0d16;
+	color: #ffffff;
+	moz-border-radius: 3px;
+	webkit-border-radius: 3px;
+	border-radius: 3px;
+    text-shadow: none;
+}
+.noDepositOffers ul li a img{
+ width:29px; height:29px;
+}
+.entry-content{ padding-right:6px; text-align:justify;}
+.entry-content p{ padding-bottom:5px;}
+
+.inside p:nth-child(2) textarea{
+  width:100px; height: 50px;
+}
